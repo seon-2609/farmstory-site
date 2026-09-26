@@ -1,0 +1,12 @@
+# 컴퓨터마다 달라서 올리지 않는 파일
+.DS_Store
+Thumbs.db
+
+# 비밀번호·접속 정보가 들어갈 수 있는 환경 설정 파일
+.env
+.env.*
+!.env.example
+
+# 개발 중 자동으로 생기는 폴더
+node_modules/
+.vscode/
