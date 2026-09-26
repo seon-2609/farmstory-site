@@ -5,11 +5,13 @@ header{box-shadow:0 5px 22px #143d2e0c}
 .weather>div{min-width:0}.weather small{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.weather-setting{flex:0 0 auto}
 .weather::after{content:"";position:absolute;right:-36px;top:-55px;width:130px;height:130px;border-radius:50%;background:#ffffff12;pointer-events:none}
 nav{box-shadow:0 7px 18px #193a2c0a}
-.home-hero{position:relative;overflow:hidden;display:grid;grid-template-columns:1fr;gap:26px;align-items:center;min-height:285px;padding:36px;border-radius:28px;background:linear-gradient(135deg,#143f30 0%,#1c674c 66%,#32825f 100%);color:#fff;box-shadow:0 18px 45px #183d2f24}
+.home-hero{position:relative;overflow:hidden;display:grid;grid-template-columns:minmax(0,1fr) 310px;gap:26px;align-items:center;min-height:285px;padding:36px;border-radius:28px;background:linear-gradient(135deg,#143f30 0%,#1c674c 66%,#32825f 100%);color:#fff;box-shadow:0 18px 45px #183d2f24}
 .home-hero::before,.home-hero::after{content:"";position:absolute;border-radius:50%;background:#ffffff0b}
 .home-hero::before{width:270px;height:270px;right:-85px;top:-100px;border:1px solid #ffffff14}
 .home-hero::after{width:170px;height:170px;right:150px;bottom:-125px;border:1px solid #ffffff12}
 .hero-copy{position:relative;z-index:1}
+.hero-photo{position:relative;z-index:1;overflow:hidden;height:220px;border:1px solid #ffffff38;border-radius:23px;background:#164d3b;box-shadow:0 15px 30px #08281c35}
+.hero-photo img{display:block;width:100%;height:100%;object-fit:cover}
 .hero-date{display:inline-flex;padding:6px 11px;border:1px solid #ffffff38;border-radius:99px;background:#ffffff10;color:#d9ebdf;font-size:13px;font-weight:800}
 .hero-copy h1{margin:15px 0 9px;font-size:clamp(27px,4vw,40px);line-height:1.2;letter-spacing:-1.2px}
 .hero-copy p{max-width:540px;margin:0;color:#d1e3d9;line-height:1.6}
@@ -28,5 +30,5 @@ nav{box-shadow:0 7px 18px #193a2c0a}
 .sale-icon{background:#fff0d6}.nutrition-icon{background:#e1f2e6}.spray-icon{background:#e2f0f7}.labor-icon{background:#f1e8fa}
 .section-title{margin-top:30px}
 .photos figure,.list article,.empty{box-shadow:0 8px 22px #183d2f0b}
-@media(max-width:700px){.wrap{padding-top:14px}.home-hero{grid-template-columns:1fr;gap:12px;min-height:auto;padding:23px 20px;border-radius:22px}.hero-copy{min-width:0}.hero-copy h1{font-size:25px}.hero-copy p{font-size:14px}.hero-copy button{margin-top:17px}.quick-section{padding:18px 14px}.quick-heading>small{display:none}.quick-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.quick-grid button{grid-template-columns:39px minmax(0,1fr);padding:11px}.quick-icon{width:39px;height:39px}.weather-setting{padding:8px 9px}.weather{gap:9px}.weather-icon{font-size:25px}}
+@media(max-width:700px){.wrap{padding-top:14px}.home-hero{grid-template-columns:1fr;gap:18px;min-height:auto;padding:23px 20px;border-radius:22px}.hero-copy{min-width:0}.hero-copy h1{font-size:25px}.hero-copy p{font-size:14px}.hero-copy button{margin-top:17px}.hero-photo{height:180px}.quick-section{padding:18px 14px}.quick-heading>small{display:none}.quick-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.quick-grid button{grid-template-columns:39px minmax(0,1fr);padding:11px}.quick-icon{width:39px;height:39px}.weather-setting{padding:8px 9px}.weather{gap:9px}.weather-icon{font-size:25px}}
 @media(max-width:520px){.hero-copy h1 br{display:none}.weather small{font-size:11px}}
