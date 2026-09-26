@@ -6,7 +6,13 @@
   <meta name="description" content="브라우저에 기록을 저장하는 농장 관리 웹앱">
   <title>팜스토리 | 농장 통합 관리</title>
   <link rel="stylesheet" href="styles.css">
-  <style>.top.single{grid-template-columns:1fr}</style>
+  <style>
+    .top.single{grid-template-columns:1fr}
+    .weather>div{flex:1}
+    .weather-setting{margin-left:auto;border:1px solid #ffffff80;border-radius:10px;background:#ffffff18;color:#fff;padding:9px 12px;font-weight:800;white-space:nowrap}
+    .region-message{margin:10px 0 0;color:#718078;font-size:14px}
+    .save:disabled{opacity:.6;cursor:wait}
+  </style>
 </head>
 <body>
   <main id="app"></main>
